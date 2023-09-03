@@ -1,0 +1,37 @@
+/* FONTS =============================================================================================== */
+/* .hero.is-fullheight.has-fixed-navbar {
+    min-height: 100vh;
+} */
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, ul, li, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* SECTIONS =============================================================================================== */
+
+
+
+/* WAPP BTN =============================================================================================== */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
