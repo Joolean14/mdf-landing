@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Músicos de Fondo</title>
+    <title>Música para eventos | Músicos de Fondo</title>
     <!-- META -->
     <meta name="keywords" content="Músicos, Música, Medellín, Eventos, Jazz">
     <meta name="description" content="Somos un selecto equipo de músicos profesionales
@@ -16,16 +16,28 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.ico">
     <!-- <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png"> -->
 
+    <!-- GOOGLE ANALYTICS -->
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7ZZWGJSN8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D7ZZWGJSN8');
+    </script> -->
+    <!-- PIXEL -->
 
     <!-- schema.org -->
     <!-- lighthouse -->
     <!-- responsively app -->
     <!-- https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading -->
     <!--OG: https://www.conductor.com/academy/open-graph/ -->
-    <!-- audit accesability -->
-    <!-- google analytics + pixel -->
-    <!-- If an image is particularly complex or conveys detailed information, consider providing a long description using the longdesc attribute. -->
     <!-- favicon, erase unused images -->
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,9 +57,51 @@
         <figure class="hero-body image mx-auto">
             <img src="assets/images/musicos-de-fondo-logo.png" alt="Logo Músicos de Fondo">
         </figure>
+        <nav class="columns mb-5">
+            <div class="column has-text-centered">
+                <a class="has-text-white is-hovered" href="#videos">Videos</a>
+            </div>
+            <div class="column has-text-centered">
+                <a class="has-text-white is-hovered" href="#sello">Sello</a>
+            </div>
+            <div class="column has-text-centered">
+                <a class="has-text-white is-hovered" href="#quienes">¿Quiénes somos?</a>
+            </div>
+        </nav>
     </header>
 
-    <section class="section content">
+    <section id="videos">
+        <figure class="image is-16by9">
+            <iframe class="has-ratio" width="560" height="315"
+                src="https://www.youtube.com/embed/PlBx0lhhMhQ?si=MprDQeBiW88n1L65" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen loading="lazy"></iframe>
+        </figure>
+        <figure class="image is-16by9">
+            <iframe class="has-ratio" width="560" height="315"
+                src="https://www.youtube.com/embed/fpmiATHFaU4?si=l3UH4p9YfYn9YAXZ" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen loading="lazy"></iframe>
+        </figure>
+        <figure class="image is-16by9">
+            <iframe class="has-ratio" width="560" height="315"
+                src="https://www.youtube.com/embed/lC1jGT8fKMg?si=4wlOk2iNkVjVM8jG" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen loading="lazy"></iframe>
+        </figure>
+        <figure class="image is-16by9">
+            <iframe class="has-ratio" width="560" height="315"
+                src="https://www.youtube.com/embed/SJkFuiXizKE?si=h2CXetIrq7T03HVu" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen loading="lazy"></iframe>
+        </figure>
+    </section>
+
+    <section id="sello" class="section content">
         <h1 class="title is-1 has-text-centered is-hidden">Músicos de Fondo</h1>
         <h2 class="title is-1 has-text-centered">Falso Ídolo</h2>
 
@@ -84,39 +138,8 @@
         </ul>
     </section>
 
-    <section class="">
-        <figure class="image is-16by9">
-            <iframe class="has-ratio" width="560" height="315"
-                src="https://www.youtube.com/embed/PlBx0lhhMhQ?si=MprDQeBiW88n1L65" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </figure>
-        <figure class="image is-16by9">
-            <iframe class="has-ratio" width="560" height="315"
-                src="https://www.youtube.com/embed/fpmiATHFaU4?si=l3UH4p9YfYn9YAXZ" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </figure>
-        <figure class="image is-16by9">
-            <iframe class="has-ratio" width="560" height="315"
-                src="https://www.youtube.com/embed/lC1jGT8fKMg?si=4wlOk2iNkVjVM8jG" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </figure>
-        <figure class="image is-16by9">
-            <iframe class="has-ratio" width="560" height="315"
-                src="https://www.youtube.com/embed/SJkFuiXizKE?si=h2CXetIrq7T03HVu" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </figure>
-    </section>
-
     <main class="section">
-        <h2 class="title is-2">¿Quiénes somos?</h2>
+        <h2 id="quienes" class="title is-2">¿Quiénes somos?</h2>
 
         <p>Somos un selecto equipo de músicos profesionales
             de Medellín y ofrecemos una solución de servicios
@@ -134,13 +157,13 @@
             tantos.
             <br></br>
             Desde finales de 2021 hasta la fecha somos los
-            programadores y banda residente de Z Bar Jazz
+            programadores y banda residente de <a class="has-text-black is-underlined" href="https://www.instagram.com/zbarjazz/?hl=en">Z Bar Jazz</a>
             Club,una propuesta única en Colombia.</p>
     </main>
 
     <footer class="hero has-background-black">
         <div class="hero-body">
-            <p class="has-text-white">producciones@falsoidolo.com</p>
+            <p class="has-text-white">musicosdefondo@falsoidolo.com</p>
             <span class="icon">
                 <a href="https://www.instagram.com/musicosdefondo/" target="_blank">
                     <i class="fa fa-instagram has-text-white"></i>
