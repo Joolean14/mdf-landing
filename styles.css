@@ -30,6 +30,10 @@ p, ul, li, a {
 	margin-top:16px;
 }
 
+.wider-td {
+    width: 60% !important; /* Adjust the width as needed */
+  }
+
 
 /* SLIDER ====================================================================================================== */
 
