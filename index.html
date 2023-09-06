@@ -54,11 +54,49 @@
 </head>
 
 <body>
+    <nav id="top" class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                <p class="is-title is-1">MDF</p>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="#videos" class="navbar-item">
+                    Videos
+                </a>
+
+                <a href="#repertorio" class="navbar-item">
+                    Repertorio
+                </a>
+
+                <a href="#quienes" class="navbar-item">
+                    ¿Quiénes somos?
+                </a>
+
+                <a href="#galeria" class="navbar-item">
+                    Galería
+                </a>
+
+                <a href="#sello" class="navbar-item">
+                    Sello
+                </a>
+            </div>
+        </div>
+    </nav>
     <header class="hero is-full-height has-background-black">
         <figure class="hero-body image mx-auto">
             <img src="assets/images/musicos-de-fondo-logo.png" alt="Logo Músicos de Fondo">
         </figure>
-        <nav class="columns mb-5">
+        <!-- <nav class="columns mb-5">
             <div class="column has-text-centered">
                 <a class="has-text-white is-hovered" href="#videos">Videos</a>
             </div>
@@ -74,7 +112,7 @@
             <div class="column has-text-centered">
                 <a class="has-text-white is-hovered" href="#repertorio">Repertorio</a>
             </div>
-        </nav>
+        </nav> -->
     </header>
 
     <section id="videos">
@@ -106,100 +144,6 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen loading="lazy"></iframe>
         </figure>
-    </section>
-
-    <main class="section has-background-black has-text-white">
-        <h2 id="quienes" class="title is-2 has-text-white">¿Quiénes somos?</h2>
-
-        <p>Somos un selecto equipo de músicos profesionales
-            de Medellín y ofrecemos una solución de servicios
-            musicales donde tú eres quien determina el género
-            musical, el formato de la banda, los instrumentos y
-            el número de ejecutantes.
-            <br></br>
-            La sonoridad de Músicos de Fondo se caracteriza
-            por versionar de manera creativa canciones del
-            conocimiento popular.
-            <br></br>
-            Somos especialistas principalmente en géneros
-            afines al Jazz, tales cómo Swing, Latin, Salsa, Son
-            Cubano, Funk, Blues, Gypsy, Cumbia, entre otros
-            tantos.
-            <br></br>
-            Desde finales de 2021 hasta la fecha somos los
-            programadores y banda residente de <a class="has-text-white is-underlined"
-                href="https://www.instagram.com/zbarjazz/?hl=en">Z Bar Jazz</a>
-            Club,una propuesta única en Colombia.</p>
-    </main>
-
-    <section id="sello" class="section content">
-        <h1 class="title is-1 has-text-centered is-hidden">Músicos de Fondo</h1>
-        <h2 class="title is-1 has-text-centered">Falso Ídolo</h2>
-
-        <p>Falso Ídolo es un sello discográfico que traduce la identidad
-            de las marcas y artistas al lenguaje sonoro, su propósito es
-            potenciar proyectos para desarrollar organizaciones
-            culturales sostenibles. Adicionalmente, es un aliado en la
-            comunicación de las empresas con productos como
-            identidad sonora, activaciones de marca, musicalizaciones y
-            más.</p>
-        <h2 class="title is-3">Artistas</h2>
-        <ul>
-            <li>
-                Margarita Siempre Viva
-            </li>
-            <li>
-                Bajo Tierra
-            </li>
-            <li>
-                Solo Valencia
-            </li>
-            <li>
-                Providencia
-            </li>
-            <li>
-                Bella Álvarez
-            </li>
-            <li>
-                Juan Astronauta
-            </li>
-            <li>
-                Carolina Blanco
-            </li>
-        </ul>
-    </section>
-
-    <section class="section has-background-black">
-        <h2 id="galeria" class="title is-2 has-text-white">Galería</h2>
-        <div id="slider">
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-16by9 is-covered">
-                        <img src="assets/images/galeria1.jpg" alt="Septeto músicos de fondo" />
-                    </figure>
-                </div>
-            </div>
-            <div class="card ">
-                <div class="card-image">
-                    <figure class="image is-16by9 is-covered">
-                        <img src="assets/images/galeria2.jpg" alt="Brass músicos de fondo" />
-                    </figure>
-                </div>
-            </div>
-            <div class="card ">
-                <div class="card-image">
-                    <p class="image is-16by9 is-covered">
-                        <img src="assets/images/galeria3.jpg" alt="Brass músicos de fondo y cantante" />
-                    </p>
-                </div>
-            </div>
-            <div class="card ">
-                <div class="card-image">
-                    <p class="image is-16by9 is-covered">
-                        <img src="assets/images/galeria4.jpg" alt="Septeto músicos de fondo trasera" />
-                    </p>
-                </div>
-            </div>
     </section>
 
     <section class="section">
@@ -269,9 +213,107 @@
     </section>
 
 
+
+
+
+    <main class="section has-background-black has-text-white">
+        <h2 id="quienes" class="title is-2 has-text-white">¿Quiénes somos?</h2>
+
+        <p>Somos un selecto equipo de músicos profesionales
+            de Medellín y ofrecemos una solución de servicios
+            musicales donde tú eres quien determina el género
+            musical, el formato de la banda, los instrumentos y
+            el número de ejecutantes.
+            <br></br>
+            La sonoridad de Músicos de Fondo se caracteriza
+            por versionar de manera creativa canciones del
+            conocimiento popular.
+            <br></br>
+            Somos especialistas principalmente en géneros
+            afines al Jazz, tales cómo Swing, Latin, Salsa, Son
+            Cubano, Funk, Blues, Gypsy, Cumbia, entre otros
+            tantos.
+            <br></br>
+            Desde finales de 2021 hasta la fecha somos los
+            programadores y banda residente de <a class="has-text-white is-underlined"
+                href="https://www.instagram.com/zbarjazz/?hl=en">Z Bar Jazz</a>
+            Club,una propuesta única en Colombia.</p>
+    </main>
+
+    <section class="section has-background-black">
+        <h2 id="galeria" class="title is-2 has-text-white">Galería</h2>
+        <div id="slider">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-16by9 is-covered">
+                        <img src="assets/images/galeria1.jpg" alt="Septeto músicos de fondo" />
+                    </figure>
+                </div>
+            </div>
+            <div class="card ">
+                <div class="card-image">
+                    <figure class="image is-16by9 is-covered">
+                        <img src="assets/images/galeria2.jpg" alt="Brass músicos de fondo" />
+                    </figure>
+                </div>
+            </div>
+            <div class="card ">
+                <div class="card-image">
+                    <p class="image is-16by9 is-covered">
+                        <img src="assets/images/galeria3.jpg" alt="Brass músicos de fondo y cantante" />
+                    </p>
+                </div>
+            </div>
+            <div class="card ">
+                <div class="card-image">
+                    <p class="image is-16by9 is-covered">
+                        <img src="assets/images/galeria4.jpg" alt="Septeto músicos de fondo trasera" />
+                    </p>
+                </div>
+            </div>
+    </section>
+
+
+    <section id="sello" class="section content">
+        <h1 class="title is-1 has-text-centered is-hidden">Músicos de Fondo</h1>
+        <h2 class="title is-1 has-text-centered">Falso Ídolo</h2>
+
+        <p>Falso Ídolo es un sello discográfico que traduce la identidad
+            de las marcas y artistas al lenguaje sonoro, su propósito es
+            potenciar proyectos para desarrollar organizaciones
+            culturales sostenibles. Adicionalmente, es un aliado en la
+            comunicación de las empresas con productos como
+            identidad sonora, activaciones de marca, musicalizaciones y
+            más.</p>
+        <h2 class="title is-3">Artistas</h2>
+        <ul>
+            <li>
+                Margarita Siempre Viva
+            </li>
+            <li>
+                Bajo Tierra
+            </li>
+            <li>
+                Solo Valencia
+            </li>
+            <li>
+                Providencia
+            </li>
+            <li>
+                Bella Álvarez
+            </li>
+            <li>
+                Juan Astronauta
+            </li>
+            <li>
+                Carolina Blanco
+            </li>
+        </ul>
+    </section>
+
     <footer class="hero has-background-black">
         <div class="hero-body">
-            <!-- <p class="has-text-white">musicosdefondo@falsoidolo.com</p> -->
+            <p class="has-text-white">musicosdefondo@falsoidolo.com</p>
             <span class="icon">
                 <a href="https://www.instagram.com/musicosdefondo/" target="_blank">
                     <i class="fa fa-instagram has-text-white"></i>
@@ -298,6 +340,30 @@
     <!-- CAROUSEL -->
     <script src="slider.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+        });
+    </script>
+
     <script>
         bulmaCarousel.attach('#slider', {
             slidesToScroll: 1,
