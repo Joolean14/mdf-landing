@@ -8,6 +8,22 @@ p, ul, li, a {
     font-family: 'Roboto', sans-serif;
 }
 
+/* CHRISTMAS BUTTON */
+
+.christmas-hero {
+  background-color: 	RGB(12, 169, 12) !important;
+}
+
+.christmas-txt {
+  color: 	#ffd700 !important;
+}
+
+.christmas-btn {
+  background-color: #ce0d0d !important;
+  color: #ffd700;
+  border-color: #ffd700;
+}
+
 
 /* WAPP BTN =============================================================================================== */
 
