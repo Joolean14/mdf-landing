@@ -20,8 +20,8 @@ p, ul, li, a {
 
 .christmas-btn {
   background-color: #ce0d0d !important;
-  color: #ffd700;
-  border-color: #ffd700;
+  color: #ffd700 !important;
+  border-color: #ffd700 !important;
 }
 
 
